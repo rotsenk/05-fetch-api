@@ -47,10 +47,12 @@ body {
         border-bottom: 1px solid var(--light-gray);
 
         &-img {
+            width: 200px;
+            height: 200px;
             border: 5px solid white;
             background-color: white;
             border-radius: 50%;
-            margin-top: calc(-48px - 5px);
+            margin-top: calc(-100px - 5px);
         }
 
         &-title {
@@ -58,6 +60,8 @@ body {
             margin-top: 2rem;
             color: var(--very-dark);
             font-size: 1.8rem;
+
+            text-transform: capitalize;
 
             span {
                 color: var(--dark-gray);
